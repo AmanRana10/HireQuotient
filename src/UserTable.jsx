@@ -100,6 +100,7 @@ function UserTable() {
       align: "center",
       headerAlign: "center",
       editable: true,
+      sortable : false
     },
     {
       field: "actions",
@@ -118,6 +119,7 @@ function UserTable() {
               sx={{
                 color: "primary.main",
               }}
+              className="saveBtn"
               onClick={handleSaveClick(id)}
             />,
             <GridActionsCellItem
@@ -134,7 +136,7 @@ function UserTable() {
           <GridActionsCellItem
             icon={<EditIcon />}
             label="Edit"
-            className="textPrimary"
+            className="editBtn"
             onClick={handleEditClick(id)}
             color="inherit"
           />,
@@ -142,7 +144,8 @@ function UserTable() {
             icon={<DeleteIcon />}
             label="Delete"
             onClick={handleDeleteClick(id)}
-            color="inherit"
+            color="error"
+            className="dltBtn"
           />,
         ];
       },
