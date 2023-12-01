@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/HireQuotient/static/css/main.31d6cfe0.css",
+    "main.js": "/HireQuotient/static/js/main.34785cf5.js",
+    "index.html": "/HireQuotient/index.html",
+    "main.34785cf5.js.map": "/HireQuotient/static/js/main.34785cf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.34785cf5.js"
+  ]
+}
